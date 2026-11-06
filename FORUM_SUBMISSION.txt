@@ -1,0 +1,27 @@
+SUBJECT
+WaPOR analysis of AETI and biomass production in Benue State, Nigeria (2025)
+
+MESSAGE
+1. Study area
+
+I studied Benue State in north-central Nigeria. The boundary used in this analysis covers approximately 30,860 km². I selected 2025 because it is the latest complete calendar year available for both WaPOR layers used.
+
+2. Data layers
+
+• FAO WaPOR v3 Level 1 monthly Actual Evapotranspiration and Interception (L1-AETI-M), in mm/month.
+• FAO WaPOR v3 Level 1 monthly Net Primary Production (L1-NPP-M), in gC/m²/month.
+• Benue State administrative boundary from geoBoundaries/GRID3 (CC BY 4.0).
+
+The WaPOR rasters have an approximate ground resolution of 320 m in Benue State.
+
+3. Python spatial analysis
+
+I used Python with GDAL, GeoPandas, NumPy, pandas and Matplotlib. I clipped 12 monthly AETI and NPP rasters to the Benue State boundary, removed NoData cells, applied the WaPOR scale factors and summed the monthly layers to annual totals. I calculated latitude-area-weighted state means, derived total biomass production from NPP, examined the spatial correlation between annual AETI and NPP, and plotted annual maps and a monthly time series.
+
+4. Main findings
+
+The area-weighted mean annual AETI was 869 mm/year. Mean annual NPP was 493.0 gC/m²/year, equivalent to approximately 11.0 ton/ha/year of total biomass production using the course conversion formula. Monthly mean AETI was highest in Nov (109 mm/month) and lowest in Apr (46 mm/month). NPP peaked in Oct (81.9 gC/m²/month). Annual AETI and NPP had a spatial correlation of r = 0.50, showing that locations with greater water consumption generally also had greater vegetation production.
+
+The attached image was created with my Python script and includes my name in the caption.
+
+— Louis Micheal Obam

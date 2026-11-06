@@ -1,0 +1,47 @@
+{
+  "author": "Louis Micheal Obam",
+  "area": "Benue State, Nigeria",
+  "area_km2": 30860.060115242773,
+  "period": "2025-01-01 to 2025-12-31",
+  "products": [
+    "WaPOR v3 L1-AETI-M",
+    "WaPOR v3 L1-NPP-M"
+  ],
+  "approx_resolution_m": 320,
+  "valid_pixels": 296606,
+  "mean_annual_AETI_mm": 869.1190418672809,
+  "mean_annual_NPP_gC_m2": 493.03469028540775,
+  "mean_annual_TBP_ton_ha": 10.956216887522332,
+  "mean_biomass_water_productivity_kg_m3": 1.270513500003508,
+  "AETI_p05_median_p95_mm": [
+    605.8999999999999,
+    867.7,
+    1125.8
+  ],
+  "NPP_p05_median_p95_gC_m2": [
+    333.462,
+    487.744,
+    693.467
+  ],
+  "TBP_p05_median_p95_ton_ha": [
+    7.410192564,
+    10.838647168000001,
+    15.410223674000001
+  ],
+  "peak_AETI_month": "Nov",
+  "peak_AETI_mm_month": 109.30303530657314,
+  "lowest_AETI_month": "Apr",
+  "lowest_AETI_mm_month": 45.68535855626226,
+  "peak_NPP_month": "Oct",
+  "peak_NPP_gC_m2_month": 81.85780671915596,
+  "annual_AETI_NPP_spatial_correlation_r": 0.4955454377045697,
+  "raster_shape": [
+    12,
+    601,
+    806
+  ],
+  "AETI_scale_used": 0.1,
+  "NPP_scale_used": 0.001,
+  "AETI_dtype": "Int16",
+  "NPP_dtype": "Int32"
+}

@@ -1,0 +1,10 @@
+# Downloaded WaPOR rasters (recreate with download_benue_wapor.py)
+wapor/
+
+# Large national boundary used only to extract Benue_State.geojson
+Nigeria_ADM1_geoBoundaries.geojson
+
+__pycache__/
+*.py[cod]
+*.egg-info/
+.DS_Store
